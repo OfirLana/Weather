@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+/*
+#########################
+ header & logo_box & logo 
+#########################
+*/
+.header {
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    display: flex;
+}
+
+.logo_box {
+    flex-basis: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    background: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*
+#########################
+ form & input_search & btn 
+#########################
+*/
+.form {
+    flex-basis: 15%;
+}
+
+.input_search {
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+}
+
+.btn {
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15%;
+    background-color: red;
+}
+/*
+#########################
+ main & box & box_card 
+#########################
+*/
+.main {
+    display: flex;
+    /* border:3px solid sandybrown; */
+}
+
+.box {
+    background-color: red;
+    flex-basis: 50%;
+    height: 631px;
+    border: 2px solid black;
+}
+
+.box_card {
+    /* border: 5px solid gold; */
+    height: 100px;
+    width: 400px;
+    border-radius: 7px;
+    background: url(img/cloud.jpg);
+    /* background: url(img/rain.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+/*
+##################################################
+ celcius_weather & main_weather & temp & temp_text 
+##################################################
+*/
+.celcius_weather {
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.main_weather {
+    /* border:1px solid pink; */
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+
+.temp {
+    /* border:3px solid white; */
+}
+
+.temp_text {
+    /* border:3px solid yellow; */
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*
+############################################
+ date_box & date & weather_title & date_hour 
+############################################
+*/
+.date_box {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    /* padding:0px 5px; */
+}
+
+.date {
+    border: 2px solid grey;
+    flex-basis: 50px;
+}
+
+.weather_title {
+    font-weight: 900;
+    color: white;
+    padding-left: 85px;
+    text-shadow: 1px 1px grey;
+    /* border: 1px solid green; */
+}
+
+.date_hour {
+    line-height: 10px;
+    font-size: 13px;
+    padding-left: 43px;
+    font-weight: bold;
+    /* border: 1px solid yellow; */
+    text-shadow: 1px 1px grey;
+}
+
+.box_country {
+    /* border: 1px solid white;
+    width:100%; */
+}
+
+.country {
+    /* flex-basis: 30px; */
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    border: 2px solid orange;
+    padding: 0px 0px 13px 85px;
+    text-shadow: 3px 1px grey;
+}
