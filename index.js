@@ -21,6 +21,13 @@ input.addEventListener('keyup', function (e) {
     }
 
 });
+document.querySelector('.input_search')
+.addEventListener('onkeydown', function (e) {
+    e.preventDefault();
+    if (e.keyCode == 13){
+    get_data();
+    }
+});
 //button event click plus getting Json data.
 btn.addEventListener('click', function (e) {
     e.preventDefault();
